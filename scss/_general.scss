@@ -1,0 +1,85 @@
+/* GENERAL */
+
+*{
+  box-sizing: border-box;
+}
+
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+}
+
+img{
+  display: block;
+  height: auto;
+}
+
+// body{
+  //   display: flex;
+  //   flex-direction: column;
+  //   height: 100%;
+  //   margin: 0;
+  //   padding: 0;
+  //   /* font-family: "Roboto", "Arial", sans-serif; */
+  //   /* font-size: 16px; */
+  //   /* font-weight: 400; */
+  //   /* line-height: var(--main-line-height); */
+  // }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background:url("../images/Tashkent-Hilton.webp");
+    background-position: center center;
+    animation: images 25s infinite alternate;
+    @include bg-config
+  }
+  @keyframes images {
+    0% {
+      background:url("../images/anhor-lokomotiv.jpg");
+      @include bg-config
+    }
+    20% {
+      background:url("../images/Tashkent-Night.webp");
+      @include bg-config
+    }
+    40% {
+      background:url("../images/Tashkent.jpg");
+      @include bg-config
+    }
+    60% {
+      background:url("../images/Uzbekistan-Ugam-ridge-Western-Tien-Shan.jpg");
+      @include bg-config
+    }
+    80% {
+      background:url("../images/Uzbekistan-mountains-landscape.jpg");
+      @include bg-config
+    }
+    100% {
+      background:url("../images/chorsu.webp");
+      @include bg-config
+    }
+  }
+  
+  /* STICKY-FOOTER */
+  .site-main{
+    flex-grow: 1;
+  }
+
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }

@@ -1,0 +1,42 @@
+.countdown__txt-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.countdown__title {
+    font-size: 4vmax;
+    color: #fff;
+}
+
+.current__date {
+    font-size: 2vmax;
+    font-weight: 600;
+    color: #fff;
+}
+
+.countdown__list {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.countdown__item {
+    text-align: center;
+    margin: .25vmax .8vmax;
+}
+
+.countdown__time {
+    font-weight: bold;
+    font-size: 6vmax;
+    line-height: 1;
+    padding: 3vmax;
+    background-color: #f3f3f347;
+    border-radius: 11px;
+    
+}
+
+.countdown__txt {
+    font-size: 1.3vmax;
+    font-weight: 600;
+}
