@@ -353,8 +353,8 @@ body {
   font-family: "Arial", sans-serif;
   background: url("../images/Tashkent-Hilton.webp");
   background-position: center center;
-  -webkit-animation: images 20s infinite alternate;
-          animation: images 20s infinite alternate;
+  -webkit-animation: images 60s infinite alternate;
+          animation: images 60s infinite alternate;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 140% 100%;
