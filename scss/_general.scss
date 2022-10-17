@@ -39,7 +39,7 @@ img{
     font-family: "Arial", sans-serif;
     background:url("../images/Tashkent-Hilton.webp");
     background-position: center center;
-    // animation: images 20s infinite alternate;
+    animation: images 20s infinite alternate;
     @include bg-config
   }
   @keyframes images {

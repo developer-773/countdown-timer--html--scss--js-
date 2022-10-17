@@ -353,6 +353,8 @@ body {
   font-family: "Arial", sans-serif;
   background: url("../images/Tashkent-Hilton.webp");
   background-position: center center;
+  -webkit-animation: images 20s infinite alternate;
+          animation: images 20s infinite alternate;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 130% 100%;
@@ -522,6 +524,6 @@ a {
 }
 
 .countdown__txt {
-  font-size: 1.3vmax;
+  font-size: 1.9vmax;
   font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
